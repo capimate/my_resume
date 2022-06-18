@@ -8,6 +8,7 @@ body{
     font-family: 'Roboto', sans-serif;
     max-width: 90%;
     max-width: auto;
+    min-width: 320px;
 }
 
 .avatar{
@@ -65,14 +66,14 @@ display: block;
 font-size: 14;
     }
 .form_item input{
-    width: 200px;
+    min-width: 200px;
     height: 25px;
     font-family: inherit;
     border-radius: 10px;
 }
 
 .form_item textarea{
-    width: 200;
+    min-width: 200px;
     height: 50;
     font-family: inherit;
     border-radius: 10px;
@@ -93,4 +94,20 @@ font-size: 14;
 .btn:active{
     background-color: rgb(140, 140, 140);
     color:blueviolet;
+}
+
+@media (max-width: 660px) {
+        .about_me{
+        display:contents;
+        }
+}
+
+@media (max-width: 660px) {
+    .avatar{
+        width: 306;
+        height: 367;
+        border-radius: 160px;
+        display: block;
+        margin: auto;
+    }
 }
