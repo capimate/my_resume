@@ -126,3 +126,11 @@ font-size: 14;
     display: flex;
     justify-content: center;
    }
+
+   .mail_me:hover{
+    transform: scale(1.1);
+   }
+
+   .phone_me:hover{
+    transform: scale(1.1);
+   }
